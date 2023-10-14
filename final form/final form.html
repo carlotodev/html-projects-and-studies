@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="final form.css">
+    <meta" charset="UTF-8" />
+    <title>freeCodeCamp Survey Form</title>
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <label id="name-label">Name
+            <input id="name" type="text" required placeholder="Enter your name">
+        </label>
+        <label id="email-label">E-mail
+            <input id="email" type="email" required placeholder="Enter your email">
+        </label>
+        <label id="number-label">Number
+            <input id="number" type="number" min="18" max="150" placeholder="Enter your age">
+        </label>   
+        <label id="dropdown-label">Which option best describes your current role?
+            <select id="dropdown" name="dropdown">
+                <option value="">(Select current role)</option>
+                <option value="1">Student</option>
+                <option value="2">Full time job</option>
+                <option value="3">Full time learner</option>
+                <option value="4">Prefer not to say</option>
+                <option value="5">Other</option>
+            </select>
+        </label>
+        <label id="recommendation-label">Would you recommend freeCodeCamp to a friend? (Required)</label>
+        <label for="yes">
+            <input type="radio" value="1" name="recommendation" class="inline" checked>Yes
+        </label>
+        <label for="no">
+            <input type="radio" value="2" name="recommendation" class="inline">No
+        </label>
+        <label for="Prefer">What would you like to see improved?</label>
+        <label for="front-end">
+            <input type="checkbox" name="Prefer" value="front-end" class="inline">Front-end projects
+        </label>
+        <label for="back-end">
+            <input type="checkbox" name="Prefer" value="back-end" class="inline">Back-end projects
+        </label>
+        <label for="suggestions">Any comments or suggestions?</label>
+        <textarea placeholder="Enter your comment here..." cols="50" rows="5"></textarea>
+        <input type="submit" id="submit">
+    </form>
+</body>
+</html>
