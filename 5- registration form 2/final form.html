@@ -9,6 +9,8 @@
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form">
+    <fieldset>
+        <legend>Personal Informations</legend>
         <label id="name-label">Name
             <input id="name" type="text" required placeholder="Enter your name">
         </label>
@@ -17,7 +19,10 @@
         </label>
         <label id="number-label">Number
             <input id="number" type="number" min="18" max="150" placeholder="Enter your age">
-        </label>   
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Questionnaire</legend>
         <label id="dropdown-label">Which option best describes your current role?
             <select id="dropdown" name="dropdown">
                 <option value="">(Select current role)</option>
@@ -42,9 +47,12 @@
         <label for="back-end">
             <input type="checkbox" name="Prefer" value="back-end" class="inline">Back-end projects
         </label>
+    </fieldset>
+    <div>
         <label for="suggestions">Any comments or suggestions?</label>
         <textarea placeholder="Enter your comment here..." cols="50" rows="5"></textarea>
         <input type="submit" id="submit">
+    </div>
     </form>
 </body>
 </html>
