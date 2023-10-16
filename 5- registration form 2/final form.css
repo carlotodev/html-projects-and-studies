@@ -8,6 +8,11 @@ body{
     font-size: 16px;
 }
 
+div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 h1{
     font-family: 'Times New Roman';
     font-size: 3.5em;
@@ -15,7 +20,7 @@ h1{
 
 label{
     display: block;
-    margin: 0.5rem 0;
+    margin: 3px;
 }
 
 h1, p{
@@ -32,7 +37,7 @@ form{
 
 input, textarea, select{
     width: 100%;
-    margin-top: 10px;
+    margin-top: 3px;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -45,7 +50,7 @@ input, textarea, select{
 }
 
 .inline{
-    width: unset;
+    width: unset;   
     margin: 0 0.5em 0 0;
     vertical-align: middle;
 }
@@ -63,7 +68,7 @@ input[type="submit"]{
 
 fieldset{
     border-radius: 5px;
-    margin: 5px;
+    margin: 10px;
     border: 2px solid #FCAA67;
 }
 
@@ -72,5 +77,6 @@ fieldset{
 }
 
 div:last-of-type{
-    margin: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
