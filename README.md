@@ -1,2 +1,2 @@
-just a few html projects and studies
+just a few html/css projects and studies
 (most of studies are from freecodecamp tutorials)
